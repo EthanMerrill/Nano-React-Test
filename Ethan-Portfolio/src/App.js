@@ -1,8 +1,17 @@
-import React from "react";
+import React from "react"
+import Footer from "./components/Footer"
+import Navbar from "./components/Navbar"
+import MainContent from "./components/MainContent"
 
-export default () => (
-  <>
-    <h1>Welcome to React Parcel Micro App!</h1>
-    <p>Hard to get more minimal than this React app.</p>
-  </>
-);
+function App() {
+  return ( 
+    <div>
+    <Navbar />
+    <MainContent />
+    <Footer />
+    </div>
+    
+  )
+}
+
+export default App
