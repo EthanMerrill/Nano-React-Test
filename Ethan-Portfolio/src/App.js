@@ -2,6 +2,7 @@ import React from "react"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import MainContent from "./components/MainContent"
+import PostParser from './components/PostParser'
 
 import "./style.css"
 
@@ -10,7 +11,8 @@ function App() {
     <div>
     <Header />
     <MainContent />
-    <Footer />
+    <PostParser text = '# Some Markdown'/>
+    <Footer/>
     </div>
     
   )

@@ -9,8 +9,10 @@
   "license": "MIT",
   "dependencies": {
     "d3": "^5.15.0",
+    "markdown-react": "0.0.9",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "react-markdown": "^4.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
