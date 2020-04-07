@@ -3,8 +3,9 @@ import Footer from "./components/Footer"
 import Header from "./components/Header"
 import MainContent from "./components/MainContent"
 import PostParser from './components/PostParser'
-
-import "./style.css"
+import { Button } from '@material-ui/core';
+import ForceDirectedChart from "./components/ForceDirectedChart"
+// import "./style.css"
 
 function App() {
   return ( 
@@ -13,6 +14,8 @@ function App() {
     <MainContent />
     <PostParser text = '# Some Markdown'/>
     <Footer/>
+    <Button variant="contained" color="primary">Hello World</Button>
+    <ForceDirectedChart/>
     </div>
     
   )

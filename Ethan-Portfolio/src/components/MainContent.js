@@ -1,6 +1,7 @@
 import React from "react";
 import CheckBoxItem from "./CheckBoxItem"
 
+
 function MainContent() {
     return (
         <div>
@@ -8,6 +9,9 @@ function MainContent() {
         <CheckBoxItem text = "Thing1" />
         <CheckBoxItem text = "Thing2" />
         <CheckBoxItem text = "Thing3" />
+        <div id="map"> 
+       
+       </div>
         </div>
     )
 }
