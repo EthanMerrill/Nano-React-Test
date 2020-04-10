@@ -33,3 +33,9 @@ Todo:
 
 - Have to break out of function components because the ref attribute does not work in them. Apparently this is because function components do not have instances. some day I'll learn what this means! <a href='https://reactjs.org/docs/refs-and-the-dom.html'>React and Refs</a>
 - Experimented with non function components, but hit a tough spot when trying to render the d3 components onto the svg. 
+- I got some components onto an svg, but interactivity is a complete mystery. I have a new plan B:
+    - what if I just write all the d3 js (not in JSX) in the html page? THis is a problem for tomorrow.
+
+### Day 6
+
+I decided to make the d3 force directed chart work on its own. I created a folder called d3sandbox to do this. THe next step is to make it work in the react module. 
