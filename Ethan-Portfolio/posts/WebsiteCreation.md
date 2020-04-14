@@ -42,4 +42,4 @@ I decided to make the d3 force directed chart work on its own before integrating
 
 ### Day 7
 
-The next step is actually just to pass a JSON file as a prop to a react module. 
+The next step is actually just to pass a JSON file as a prop to a react module. I will need to integrate a html parser in addition to the markdown parser in order to satisfy the requirements of the Humanities practicum. A good start looks to be right here: <a href="https://www.npmjs.com/package/html-react-parser"> HTML React Parser</a>
