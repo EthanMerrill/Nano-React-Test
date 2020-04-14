@@ -38,4 +38,8 @@ Todo:
 
 ### Day 6
 
-I decided to make the d3 force directed chart work on its own. I created a folder called d3sandbox to do this. THe next step is to make it work in the react module. 
+I decided to make the d3 force directed chart work on its own before integrating it into the react app. I created a folder called d3sandbox to do this. The next step is to make it work in the react module. 
+
+### Day 7
+
+The next step is actually just to pass a JSON file as a prop to a react module. 

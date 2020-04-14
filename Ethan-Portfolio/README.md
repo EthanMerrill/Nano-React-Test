@@ -1,1 +1,1 @@
-see the log of my website development here: <a href="posts\WebsiteCreation.md">build log</a>
+See the log of my website development here: <a href="posts\WebsiteCreation.md">build log</a>

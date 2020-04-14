@@ -15,7 +15,7 @@ function App() {
     <PostParser text = '# Some Markdown'/>
     <Footer/>
     <Button variant="contained" color="primary">Hello World</Button>
-    <ForceDirectedChart/>
+    <ForceDirectedChart data = "graphData.json"/>
     </div>
     
   )

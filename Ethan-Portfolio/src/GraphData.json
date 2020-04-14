@@ -1,0 +1,26 @@
+  {
+      "nodes": [
+
+          { "id": "Maritime", "url": "https://hello.com", "group": 1 },
+          { "id": "Mechanical Design", "url": "https://hello.com", "group": 1 },
+          { "id": "Coding", "url": "https://hello.com", "group": 1 },
+          { "id": "Environmentalism", "url": "https://hello.com", "group": 1 },
+          { "id": "Alternative Energy", "url": "https://hello.com", "group": 1 },
+          { "id": "Entrepeneurship", "url": "https://hello.com", "group": 1 },
+          { "id": "Github", "group": 1 },
+          { "id": "Data Visualization", "group": 1 },
+
+          { "id": "Print Lab Project", "url": "https://hello.com", "group": 2 },
+          { "id": "Article1", "group": 2 },
+          { "id": "Article2", "group": 2 },
+          { "id": "Article3", "group": 2 }
+      ],
+      "links": [
+          { "source": "Print Lab Project", "target": "Mechanical Design", "value": 1 },
+          { "source": "Article1", "target": "Coding", "value": 8 },
+          { "source": "Article1", "target": "Environmentalism", "value": 8 },
+          { "source": "Article2", "target": "Coding", "value": 8 },
+          { "source": "Article3", "target": "Data Visualization", "value": 8 },
+          { "source": "Article3", "target": "Github", "value": 8 }
+      ]
+  }
